@@ -121,14 +121,14 @@ p{
 }
 .date-cvc{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     gap: 0.5em;
 }
-.cvc-num, .expiry-date{
+/* .cvc-num, .expiry-date{
     display: flex;
     flex-direction: row;
-}
+} */
 input {
     display: flex;
     padding: 1em 1em;
