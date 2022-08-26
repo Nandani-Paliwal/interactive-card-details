@@ -59,6 +59,4 @@ hsl(279, 6%, 55%)
 
   <!-- Completed state start -->
 
-  Thank you!
-  We've added your card details
-  Continue
+ 
