@@ -8,7 +8,7 @@
 .container
 {
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
 
 }
 .gradient
@@ -123,12 +123,13 @@ p{
     display: flex;
     flex-direction: row;
     width: 100%;
-    gap: 1rem;
+    gap: 0.5em;
 }
 
 fieldset{
     border: none;
     display: flex;
+    font-size: 0.7m;
     flex-direction: row;
     height: 50%; 
     width: 100%;
@@ -149,16 +150,55 @@ input {
     width: 100%;
 }
 .btn-confirm{
-    padding: 1em 11em;
+    padding: 1em 1em;
     margin: auto;
     border-radius: 0.4em;
     color: white;
     background-color: rgb(34, 3, 34);
     width: 100%;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .gradient{
+        height: 13em;
+        width: 100%;
+        position: relative;
+
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9em;
+        margin-top: 2em;
+    }
     .details {
         width: 100%;
+       
     }
+    .atm-cards{
+       position: absolute;
+       top: 0em;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       height: fit-content;
+        
+    }
+    .card-back{
+        position: inherit;
+        top: -2em;
+    }
+    .card-front{
+        position:inherit;
+        top: 7.5em;
+        z-index: 1;
+    }
+   
 }
