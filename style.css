@@ -119,9 +119,12 @@ p{
     width: 100%;
     justify-content: start;
 }
+.flex{
+    display: flex;
+}
 .date-cvc{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     gap: 0.5em;
 }
